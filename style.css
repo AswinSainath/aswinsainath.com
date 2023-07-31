@@ -117,36 +117,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Style for the last section (previously the second section) */
-/*section:last-of-type {
-  height: 100vh;
-  color: white;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section:last-of-type h1 {
-  font-size: 48px;
-}*/
-
-/* Additional style for the second section */
-/*section:nth-of-type(2) {
-  height: 100vh;
-  color: white;
-  background: darkblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section:nth-of-type(2) h1 {
-  font-size: 48px;
-}*/
-
-
-
 
 .intro:before {
   content: "";
@@ -203,23 +173,18 @@ section:nth-of-type(2) h1 {
 }
 
 
-/* Your existing CSS styles for intro section */
 
-/* Your existing CSS styles for intro section */
-
-/* Existing CSS styles for intro section */
-
-/* Styles for the updated second section */
+/* Styles for the home section */
 section.front {
   height: 100vh;
   color: white;
-  background: #333; /* Update the background color as per your preference */
+  background: #111; /* Update the background color as per your preference */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative; /* Added to make the navigation links position relative to this section */
+  position: relative; 
 }
 
 section.front h1 {
@@ -255,7 +220,7 @@ section.front a {
 
 section.front a:hover {
   background-color: white;
-  color: #333; /* Update the color as per your preference */
+  color: #333; 
 }
 
 /* Additional styles for the About Me section */
