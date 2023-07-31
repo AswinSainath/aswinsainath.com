@@ -58,16 +58,6 @@ setInterval(() => {
   video.currentTime = delay;
 }, 33.33);
 
-// function scrollToLast() {
-//   const lastSection = document.querySelector('section:last-of-type');
-//   const lastSectionPosition = lastSection.offsetTop;
-
-//   // Scroll to the last section smoothly
-//   window.scrollTo({
-//     top: lastSectionPosition,
-//     behavior: 'smooth'
-//   });
-// }
 
 
 // JavaScript to handle the "Go to Last Section" button click
@@ -103,21 +93,3 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
-
-
-// function skipAnimation() {
-//   // Hide the button after skipping animation
-//   const skipButton = document.querySelector('.skip-animation-btn');
-//   skipButton.style.display = 'none';
-
-//   // Show the "Welcome" text by fading it in
-//   gsap.to(text, { opacity: 1, duration: 1 });
-
-//   // Pause the video and hide it
-//   video.pause();
-//   video.style.display = 'none';
-
-//   // Remove the pinning effect and indicators when the animation is skipped
-//   scene.remove();
-//   controller.destroy(true);
-// }
